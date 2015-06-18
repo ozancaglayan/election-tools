@@ -55,4 +55,4 @@ ggplot(gpoli) +
   coord_equal()
 
 
-oy <- read.csv('TR2015.csv', header = T, stringsAsFactors = F)
+oy <- read.csv('data/2015/TR2015.csv', header = T, stringsAsFactors = F)
