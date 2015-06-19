@@ -1,0 +1,2 @@
+- Raw files are downloaded from YSK's website as XLS files for each city
+- Processed CSV files is generated using `scripts/xls2csv.R`. Note that it only contains major political parties: AKP, CHP, MHP, HDP and SP.
