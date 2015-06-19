@@ -136,8 +136,8 @@ g <- ggplot(final.gpoli, aes(long, lat)) +
 # http://stackoverflow.com/a/10691826/1927108
 
 theta <- seq(pi/8, 2*pi, length.out=16)
-xo <- diff(range(province.centers$long))/1000
-yo <- diff(range(province.centers$lat))/1000
+xo <- diff(range(province.centers$long))/1200
+yo <- diff(range(province.centers$lat))/500
 for(i in theta) {
   g <- g + geom_text(data=province.centers,
     bquote(aes(x=long+.(cos(i)*xo),y=lat+.(sin(i)*yo),label=il)),
