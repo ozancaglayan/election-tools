@@ -1,3 +1,5 @@
+library(readxl)
+
 read_ysk_xls <- function(fname) {
   data <- read_excel(fname, skip=1)
 
